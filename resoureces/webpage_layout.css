@@ -1,32 +1,43 @@
 /*  */
-.wrap-header{
+.wrap-header {
     background-color: aliceblue;
 }
 .wrap-header > header{
-    /* 중앙배치 */
+    /* 중앙 배치 */
     width: 960px; margin: 0 auto;
 }
 /*  */
-.wrap-footer{
+.wrap-footer {
     background-color: azure;
-    /* float 배치해제 */
+
+    /* float - 동위 - 해제 */
     clear: both;
 }
 .wrap-footer > footer{
-    /* 중앙배치 */
+    /* 중앙 배치 */
     width: 960px; margin: 0 auto;
 }
 /*  */
-.wrap-main{
+.wrap-main {
     background-color: #ffd;
-    /* 중앙배치 */
+    /* 중앙 배치 */
     width: 960px; margin: 0 auto;
+
+    /* float - 부모 height를 위해  */
+    overflow: hidden;
+
+    /* background-color 빈공간 생김
+    margin: 10px 0;*/
+    /* background-color 칠해지는 공간 */
+    padding: 10px 0;
 }
 .wrap-main > section{
-    /*float 왼쪽 배치 */
-    width: 760px; float: left;
+    /* float 왼쪽 배치 */
+    width: 750px; float: left;
+
+    margin-right: 10px;
 }
 .wrap-main > aside{
-    /* float왼쪽 배치 */
+    /* float 왼쪽 배치 */
     width: 200px; float: left;
 }
