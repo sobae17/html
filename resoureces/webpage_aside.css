@@ -1,0 +1,49 @@
+/* ul > li > a >div{
+ 
+    width: ; float: left;
+} */
+aside ul > li{
+    /* float 해제 */
+    clear: both;
+    /* float 부모에다가 걸어줌 */
+    overflow: hidden;
+    padding: 10px;
+    border: 1px solid black;
+}
+aside ul > li > a > div:first-child{
+    /*  */
+    width: 45px; float: left;
+}
+aside ul > li > a > div:last-child{
+    /*  */
+    width: 120px; float: left;
+}
+aside input[type=radio]{
+    display: none;
+}
+
+input[type=radio]:nth-of-type(1):checked 
+~ div:nth-of-type(1)
+{
+    display: block;
+    
+}
+input[type=radio]:nth-of-type(1):checked 
+~ div:nth-of-type(2)
+{
+    display: none;
+    
+}
+input[type=radio]:nth-of-type(2):checked 
+~ div:nth-of-type(1)
+{
+    display: none;
+    
+}
+input[type=radio]:nth-of-type(2):checked 
+~ div:nth-of-type(2)
+{
+    display: block;
+    
+}
+
