@@ -1,0 +1,136 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em;
+    line-height: 1.2em;
+}
+
+.noto-serif {
+    font-family: "Noto Serif KR", serif;
+    font-style: normal;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 1.28em;
+    line-height: 1.3em;
+}
+
+h3 {
+    font-weight: 900;
+    font-size: 1em;
+    line-height: 1.1em;
+}
+
+.wrap-header {
+    background-color: antiquewhite;
+
+}
+
+header {
+    width: 960px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    position: relative;
+    height: 160px;
+}
+
+header nav.tnb {
+    position: absolute;
+    right: 0;
+}
+
+header nav.bnb {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+header div.logo {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+
+}
+
+.wrap-main {
+    width: 960px;
+    margin: 0 auto;
+}
+
+section {
+    float: left;
+    width: 750px;
+    margin-right: 10px;
+}
+
+aside {
+    float: left;
+    width: 200px;
+   
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+,.wrap-footer{
+    clear: both;
+
+    background-color: antiquewhite;
+}
+footer{
+    width: 960px;
+    margin: 0 auto;
+
+    padding: 10px 0;
+}
+article{
+    border: 1px solid black;
+    box-sizing: border-box;
+
+    padding: 10px;
+    margin-bottom: 10px;
+}
+article:last-child{
+    margin-bottom: 0;
+}
+ul{
+    overflow: hidden;
+}
+ul > li{
+    float: left;
+}
+nav > ul > li >a{
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+nav >ul > li:first-child >a {
+    border-left: 1px solid black;
+}
+nav.tnb >ul >li:first-child >a {
+    border-left: 1px solid black;
+    border-radius: 15px 0 0 15px;
+}
+nav.tnb >ul >li:last-child >a {
+    border-radius: 0 15px 15px 0;
+}
+nav.bnb > ul > li:first-child > a{
+    border-left: 1px solid black;
+    border-radius: 10px 0 0 10px;
+}
+nav.bnb > ul > li:last-child > a{
+    border-radius: 0 10px 10px 0;
+}
+
+nav.bnb, .logo {
+    /* float 의 동위노드에 clear */
+    clear: both;
+}
+a{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: white;
+    background-color: black;
+}
