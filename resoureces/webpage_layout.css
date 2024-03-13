@@ -1,0 +1,32 @@
+/*  */
+.wrap-header{
+    background-color: aliceblue;
+}
+.wrap-header > header{
+    /* 중앙배치 */
+    width: 960px; margin: 0 auto;
+}
+/*  */
+.wrap-footer{
+    background-color: azure;
+    /* float 배치해제 */
+    clear: both;
+}
+.wrap-footer > footer{
+    /* 중앙배치 */
+    width: 960px; margin: 0 auto;
+}
+/*  */
+.wrap-main{
+    background-color: #ffd;
+    /* 중앙배치 */
+    width: 960px; margin: 0 auto;
+}
+.wrap-main > section{
+    /*float 왼쪽 배치 */
+    width: 760px; float: left;
+}
+.wrap-main > aside{
+    /* float왼쪽 배치 */
+    width: 200px; float: left;
+}
