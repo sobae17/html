@@ -31,6 +31,8 @@ header div.logo {
 
 /* li-a 링크 padding, border , background*/
 header a {
+    /* a태그는 원래 옆으로 나란히 나타나는 개념 */
+    /* 원래 inline -> inline-block 이유 :  width,height,padding,margin */
     display: inline-block;
     border: 1px solid black;
 }
@@ -45,8 +47,9 @@ header .tnb a{
 }
 header .bnb a{
     padding: 10px 15px;
+   ;
 }
 header a:hover{
     background-color: black;
-    color: whitesmoke;
+    color: whitesmoke; 
 }
