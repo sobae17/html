@@ -7,6 +7,7 @@ section article {
 
 section article.article-1 div.flex-3 > div{
    width: 30%;
+   
    text-align: left;
    padding: 10px;
    border: 1px solid black;
@@ -20,12 +21,16 @@ section article.article-1 div.flex-3 {
 
 section article.article-2 div.grid-3 {
     display: grid;
-    grid-template-columns: 1fr 100px 1fr;
+    grid-template-columns: 1fr 30% 1fr;
     row-gap: 40px;
     column-gap: 10px;
+   
 }
 section article.article-2 div.grid-3 >div {
     border: 1px solid black;
+    text-align: left;
+    width: 100%;
+
 }
 
 
