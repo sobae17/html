@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="id2"> JavaScript 처음 </h1>
+    <h1 class="c2"> JavaScript 처음2 </h1>
+    <h1 class="c2"> JavaScript 처음3 </h1>
+
+
+    <script>
+
+        //중복선언 가능함
+        var a10;
+        var sum;
+
+        console.log("이곳------1 : a1 :" + a1);
+        console.log("이곳-------1 : a2 :" + a2);
+        // console.log("이곳-------1 : a3 :" + a3);
+        var a1 = 1;
+        {
+            var a2 = 2;
+            console.log("이곳------1 : a1 :" + a1);
+            console.log("이곳-------1 : a2 :" + a2);
+            // console.log("이곳-------1 : a3 :" + a3);
+        }
+        
+            function f1() {
+                var a3 = 3;
+                console.log("이곳------1 : a1 :" + a1);
+                console.log("이곳-------1 : a2 :" + a2);
+                // console.log("이곳-------1 : a3 :" + a3);
+            
+
+        }
+    </script>
+    <h1> 변수 var영역 </h1>
+    <script>
+        f1();
+            console.log("이곳-------4 : a1 :" + a1);
+            console.log("이곳-------4 : a2 :" + a2);
+            // console.log("이곳-------5 : a3 :" + a3);
+        
+    </script>
+</body>
+
+</html>
