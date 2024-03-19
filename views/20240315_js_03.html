@@ -9,6 +9,10 @@
     </script>
 </head>
 <body>
+    <h1>자료형 - Detail</h1>
+    <script>
+        var a1 ="문자\"열1";
+        </script>
     <h1 id="id2">연산자</h1>
     <h1 class="c2">제어문</h1>
     <script>
@@ -41,8 +45,16 @@
             console.log(obj[key]);
             
         }
-
-
+        var arr=["apple","banana", function(){ console.log("배열의 2번 index에 함수입니다.")}];
+        for(var i in arr){
+            if(typeof( arr[i]) == "function"){
+                arr[i]();
+            } else{
+                console.log(arr[i]);
+            
+        } 
+    }
+    
     </script>
     
 </body>

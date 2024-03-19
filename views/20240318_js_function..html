@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function</title>
+</head>
+<body>
+    <script>
+        function f1( a1, a2, a3){
+            console.log("f1함수실행");
+            console.log(a1);
+            console.log(a2);
+            if(typeof a3 == "undefined"){
+
+                console.log("a3 기본 설정해줄께");
+            }else{
+
+                console.log(a3);
+            }
+
+        }
+        //함수 실행
+        f1();
+        f1(10);
+        f1("abc");
+        f1(10, 20);
+        //10은 들어가는데 20은 버려짐
+        
+        //정신 못차린 코드 f1(10, 20,"abc");
+        
+        var k1 = "dq";
+        var k2 = 22;
+        var k3 = { 'k 3' : "이름 바보"};
+                console.log(k1); 
+                console.log(k3);
+                
+                var b1 ='wlq';
+                var b2 ="dw";
+        delete(k1);
+          console.log(b1);
+
+
+        
+
+
+        
+    
+
+    </script>
+</body>
+</html>
